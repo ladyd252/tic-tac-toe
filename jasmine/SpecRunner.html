@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v2.4.1</title>
+
+  <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.4.1/jasmine_favicon.png">
+  <link rel="stylesheet" href="lib/jasmine-2.4.1/jasmine.css">
+
+  <script src="lib/jasmine-2.4.1/jasmine.js"></script>
+  <script src="lib/jasmine-2.4.1/jasmine-html.js"></script>
+  <script src="lib/jasmine-2.4.1/boot.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="lib/jasmine-2.4.1/jasmine-jquery.js"></script>
+
+  <!-- include source files here... -->
+  <script src="../game.js"></script>
+
+  <!-- include spec files here... -->
+  <script src="spec/GameSpec.js"></script>
+</head>
+
+<body>
+  <div id="game-over" class="not-showing"></div>
+  <div id="game-wrapper">
+    <div data-row-id="0" class="row">
+      <div data-col-id="0" class="tile border-right border-bottom"></div>
+      <div data-col-id="1" class="tile border-right border-bottom"></div>
+      <div data-col-id="2" class="tile border-bottom"></div>
+    </div>
+    <div data-row-id="1" class="row">
+      <div data-col-id="0" class="tile border-right border-bottom"></div>
+      <div data-col-id="1" class="tile border-right border-bottom"></div>
+      <div data-col-id="2" class="tile border-bottom"></div>
+    </div>
+    <div data-row-id="2" class="row">
+      <div data-col-id="0" class="tile border-right"></div>
+      <div data-col-id="1" class="tile border-right"></div>
+      <div data-col-id="2" class="tile"></div>
+    </div>
+  </div>
+
+</body>
+</html>
