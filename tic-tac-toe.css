@@ -8,8 +8,8 @@ h1 {
 	height: 60px;
   border: 10px solid #999999;
 	background: transparent;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
 	border-radius: 60px;
   -webkit-animation-duration: .5s;
   animation-duration: .5s;
@@ -30,9 +30,9 @@ h1 {
   background: #999999;
   content: "";
   height: 25px;
-  left: -28px;
+  left: -27.5px;
   position: absolute;
-  top: 28px;
+  top: 27.5px;
   width: 80px;
   -webkit-animation-duration: .5s;
   -webkit-animation-name: bounceIn;

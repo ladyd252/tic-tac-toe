@@ -38,7 +38,7 @@
   };
 
   /**
-  * Check if x or o have won, if so end game
+  * Check if x or o have won, or if the board is full, and if so end game
   */
   Game.prototype.checkGameOver = function() {
     // check rows
